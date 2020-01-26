@@ -111,7 +111,7 @@ namespace CanadaSalesManagement1.BL
             return dt;
         }
 
-        // جلب معلومات العميل اللي عمل فاتورة معينة
+        // Get client information who made the invoice
         public DataTable GetCustomerInfoByOrderID(int orderId)
         {
             SqlParameter[] param = new SqlParameter[1];
